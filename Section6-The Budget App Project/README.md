@@ -8,4 +8,4 @@ against the total income.
 
 You can see the final architecture of the app, in the following image:
 
-![Budget App - Final architecture](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Budget App - Final architecture")
+![Budget App - Final architecture](https://github.com/ApoGouv/the-complete-javascript-course/blob/master/Section6-The%20Budget%20App%20Project/Budget%20APP%20%E2%80%93%20Final%20Architecture%20.jpg "Budget App - Final architecture")
