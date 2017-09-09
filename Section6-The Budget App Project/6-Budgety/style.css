@@ -125,7 +125,8 @@ body {
     text-align: center;
 }
 
-.add__type {
+.add__type,
+.decimal__type{
     width: 55px;
     border: 1px solid #e7e7e7;
     height: 44px;
@@ -135,6 +136,18 @@ body {
     margin-right: 10px;
     font-weight: 300;
     transition: border 0.3s;
+}
+
+div.bottom > div.add label{
+    position: relative;
+    left: -355px;
+    font-weight: 700;
+}
+
+.decimal__type{
+    padding-left: 13px;
+    margin-left: -350px;
+    margin-right: 125px;
 }
 
 .add__description,
