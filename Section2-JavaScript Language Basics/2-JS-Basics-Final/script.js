@@ -446,7 +446,7 @@ Example output: [true, false, true]
 Hint: you can use a loop not only to read from an array, like y[i], but also to set values in an array, like y[i] = ... You can also use the specific array methods.
 */
 
-/*
+
 function printFullAge(years) {
     var ages = [];
     var fullAges = [];
@@ -455,6 +455,7 @@ function printFullAge(years) {
         ages[i] = 2016 - years[i];
     }
 
+    console.log(ages);
     for (i = 0; i < ages.length; i++) {
         if (ages[i] >= 18) {
             console.log('Person ' + (i + 1) + ' is ' + ages[i] + ' years old, and is of full age.');
@@ -469,9 +470,10 @@ function printFullAge(years) {
 }
 
 var years = [2001, 1985, 1994, 2014, 1973];
+console.log( 'years array length: ' + years.length );
 var full_1 = printFullAge(years);
 var full_2 = printFullAge([2012, 1915, 1999]);
-*/
+
 
 
 
